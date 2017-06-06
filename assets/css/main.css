@@ -13,6 +13,17 @@ ul li a{
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
 }
+
+#el_menu{
+	background-color: #34495e;
+	color: #dfdfdf;
+	padding: 10px;
+	width: 100%;
+}
+
+.el-menu{
+	padding: 20px;
+}
 /*
 nav ul{
 	height: 0;
@@ -42,5 +53,9 @@ ul li{
 
 .menu{
 	width: 100%;
-
 }
+
+.show{
+	visibility: visible;
+}
+

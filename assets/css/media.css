@@ -1,0 +1,44 @@
+@media (min-width: 1px) and (max-width: 677px){
+	.menu{
+		width: 100%
+	}
+	.show{
+		visibility: hidden;
+	}
+
+	li{
+		padding: 8px;
+		align-content: flex-start;
+
+	}
+	ul li a{
+		background: #34495e;
+		font-family: 'Ubuntu', sans-serif;
+		color: #dfdfdf;	
+		padding: 5px;
+		border: 2px solid whitesmoke;
+		align-content: flex-start;
+	}
+	ul li a:hover{
+		background: #95a5a6;
+	}
+	ul{
+		flex-direction: column;
+	}
+	.el-menu{
+		visibility: visible;
+	}
+
+}
+
+@media (min-width: 677px){
+	.menu{
+		width: 100%;
+	}
+	.el-menu{
+		display: none;
+	}
+	.show{
+		visibility: visible;
+	}
+}
