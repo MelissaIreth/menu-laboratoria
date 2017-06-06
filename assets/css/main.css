@@ -9,7 +9,6 @@ ul li a{
 	color: #bdc3c7;
 	padding: 20px;
 	border-right: 2px solid #bdc3c7;
-	background-color: #c0392b;
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
 }
@@ -23,11 +22,6 @@ ul li a{
 
 .el-menu{
 	padding: 20px;
-}
-
-ul li a:hover{
-	color: #ecf0f1;
-	background-color:#e74c3c;
 }
 
 ul li{

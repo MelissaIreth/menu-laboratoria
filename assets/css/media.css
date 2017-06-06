@@ -12,10 +12,10 @@
 	li{
 		padding: 8px;
 		align-content: flex-start;
+		border-bottom: 1px solid white;
 
 	}
-	ul li a{
-		background: #34495e;
+	ul li a{	
 		font-family: 'Ubuntu', sans-serif;
 		color: #dfdfdf;	
 		padding: 5px;
@@ -23,12 +23,18 @@
 		align-content: flex-start;
 	}
 
-	ul li a:hover{
+	ul li:hover{
 		background: #95a5a6;
+		border-bottom: 1px solid black;
+	}
+
+	ul li a:hover{
+		color: black;
 	}
 
 	#el_menu:hover{
 		background: #95a5a6;
+		color: black;
 	}
 
 	ul{
@@ -49,5 +55,13 @@
 	}
 	.show{
 		visibility: visible;
+	}
+
+	ul li a{
+		background-color: #c0392b;
+	}
+	ul li a:hover{
+	color: #ecf0f1;
+	background-color:#e74c3c;
 	}
 }
