@@ -24,19 +24,7 @@ ul li a{
 .el-menu{
 	padding: 20px;
 }
-/*
-nav ul{
-	height: 0;
-	visibility: hidden;
-	opacity: 0;
-}
 
-nav:hover ul{
-	height: auto;
-	visibility: visible;
-	opacity: 1;
-}
-*/
 ul li a:hover{
 	color: #ecf0f1;
 	background-color:#e74c3c;

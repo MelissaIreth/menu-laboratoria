@@ -1,6 +1,9 @@
 @media (min-width: 1px) and (max-width: 677px){
 	.menu{
-		width: 100%
+		width: 100%;
+		flex-direction:column;
+		background: #34495e;
+
 	}
 	.show{
 		visibility: hidden;
@@ -16,12 +19,18 @@
 		font-family: 'Ubuntu', sans-serif;
 		color: #dfdfdf;	
 		padding: 5px;
-		border: 2px solid whitesmoke;
+		border: 0;
 		align-content: flex-start;
 	}
+
 	ul li a:hover{
 		background: #95a5a6;
 	}
+
+	#el_menu:hover{
+		background: #95a5a6;
+	}
+
 	ul{
 		flex-direction: column;
 	}
